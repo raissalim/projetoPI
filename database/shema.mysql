@@ -38,11 +38,7 @@
 	nomePedido VARCHAR (50)
 	);
 
-    CREATE TABLE tbInstalacao(
-    idInstalacao iNT PRIMARY KEY AUTO_INCREMENT,
-    dataInstalacao DATE,
-    descInstalacao VARCHAR (50)
-);
+
    CREATE TABLE tbColmeias(
    idColmeia  iNT PRIMARY KEY AUTO_INCREMENT,
    identificacaoColmeia VARCHAR (40)
@@ -102,8 +98,6 @@ INSERT INTO tbEmail (numeroEmail) VALUES
 ('info@nullpoint.com');
 
 
-INSERT INTO tbInstalacao (dataInstalacao, descInstalacao) VALUES
-('2023-10-01', 'Instalação sensor ultrassonico');
 
 
 
@@ -113,5 +107,6 @@ SELECT * FROM tbApicultor;
 SELECT * FROM tbEndereco;
 SELECT * FROM tbTelefone;
 SELECT * FROM tbEmail;
-SELECT * FROM tbInstalacao;
+
+
 
